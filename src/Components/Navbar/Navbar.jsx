@@ -70,11 +70,11 @@ const NavBar = () =>{
                     </button>
 
                 </ul>
-
+             </div>
             <div onClick={removeNavbar}  className="closeNavbar">
             <FaRegWindowClose className="icon"  />
             </div>
-            </div>
+            
 
             <div onClick={showNav} className="toggleNavbar">
             <TbGridDots className="icon"/>

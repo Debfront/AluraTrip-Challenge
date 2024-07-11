@@ -5,7 +5,7 @@ const TravelForm = () => {
         return(
 <section className='formulario'>
 <form >
-            <h1>Formulário d Viagem</h1>
+            <h1>Formulário de Viagem</h1>
             <div className='campos'>
             <div>
                 <label htmlFor="destination">Origem:</label>

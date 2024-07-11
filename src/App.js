@@ -4,9 +4,10 @@ import './app.css'
 import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
 import Banner from './Components/Banner/Banner'
-import TravelForm from './Components/TravelForm/TravelForm'
 
 import Main from './Components/Main/Main'
+import TravelForm from './Components/TravelForm/TravelForm'
+
 import Footer from './Components/Footer/Footer'
 
 
@@ -16,12 +17,14 @@ const App = () => {
         <>
             <Navbar />
             <Banner/>
-            <TravelForm/>
-            <Home />
-          
            
-            {/* <Main />
-            <Footer /> */}
+            <TravelForm/>
+            <Main/>
+            <Home />
+            
+            <Footer/>
+           
+            
         </>
     )
 }

@@ -3,7 +3,15 @@ import './footer.css'
 
 const Footer = () =>{
     return (
-        <div>Footer</div>
+        
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desenvolvido por Débora Monteiro</p>
+                <p>2024</p>
+             
+            </div>
+        </section>
+    
     )
 }
 

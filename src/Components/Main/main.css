@@ -1,0 +1,54 @@
+.destino {
+    width: 100%;
+  }
+  
+  .destino__container {
+    Width: 100%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .destino__title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+
+  }
+  
+  .destino__lugares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .destino__lugares__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .destino__lugares__item__img {
+    width: 368px;
+    height: 286px;
+    display: flex;
+  }
+  .destino__lugares__item__img > img {
+    margin: auto;
+    width: 250px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+  }
+  .destino__lugares__item__title {
+    font-size: 1.365rem;
+    font-weight: 700;
+  }
+  
+  .destino__lugares__item__subtitle {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  

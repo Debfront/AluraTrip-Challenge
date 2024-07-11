@@ -1,0 +1,17 @@
+.footer {
+    color: #fff;
+    background: var(--PrimaryColor);
+    gap: 10px;
+  }
+  
+  .footer__rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+   
+  }
+  

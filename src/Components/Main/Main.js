@@ -3,6 +3,7 @@ import './main.css'
 import orlando from '../../img/orlando.jpg'
 import italia from '../../img/italia.jpg'
 import londres2 from '../../img/londres2.jpg'
+import aluratrip from '../../img/aluratrip.png'
 
 const Main = () => {
   

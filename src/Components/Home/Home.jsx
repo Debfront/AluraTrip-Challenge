@@ -1,9 +1,13 @@
 import React from "react"
 import './home.css'
 
+
 const Home = () =>{
     return (
-        <div>Home</div>
+       <section className="home">
+        <div className="overlay"></div>
+       <video src="https://youtu.be/fZeaJLETsWo?si=Qr0raSDQkwgtyCBc" type="video/mp4"></video>
+       </section>
     )
 }
 

@@ -9,6 +9,7 @@ import { TbGridDots } from "react-icons/tb";
 
 
 
+
 const NavBar = () =>{
 
     const [active , setActive] = useState('navBar')
@@ -29,7 +30,7 @@ const NavBar = () =>{
                     <a href="#" className="logo flex">
                         <h1>
                         <MdOutlineTravelExplore className="icon"/>
-                            Travel.
+                            AluraTrip.
                             </h1>
                     </a>
                 </div>
@@ -48,19 +49,11 @@ const NavBar = () =>{
                     </li>
                     <li className="navItem">
                         <a href="#" className="navLink">
-                           Loja
+                           Destinos
                         </a>
                     </li>
-                    <li className="navItem">
-                        <a href="#" className="navLink">
-                            Sobre
-                        </a>
-                    </li>
-                    <li className="navItem">
-                        <a href="#" className="navLink">
-                            Pages
-                        </a>
-                    </li>
+                   
+                  
                     <li className="navItem">
                         <a href="#" className="navLink">
                             Novidades
@@ -87,9 +80,12 @@ const NavBar = () =>{
             <TbGridDots className="icon"/>
             </div>
 
-
+    
             </header>
+
+         
         </section>
+          
     )
 }
 
